@@ -1,0 +1,17 @@
+h1{
+    color:#0C1974;
+}
+.intro{
+    float:right;
+    display: block;
+}    
+@media (max-width: 1000px) {
+.intro {
+    display: none; /* Hide the div with class "intro" */
+}
+.responsive-image {
+max-width: 100%; /* The image will never exceed the container width */
+height: auto; /* The image's height will adjust proportionally to its width */
+}
+}
+
